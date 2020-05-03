@@ -1,3 +1,10 @@
+# Instructions to run solution:
+1. Open solution file
+2. Set Start-up projects to Mfm.RailtownAi.App and Mfm.RailtownAi.TestApp
+3. Press Start button.
+
+------
+
 # Railtown AI  Back End Technical Assessment
 
 ## submitting your code
