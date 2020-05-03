@@ -2,7 +2,6 @@
 using Mfm.RailtownAi.Data.Services;
 using Mfm.RailtownAi.Domain.Contracts;
 using Mfm.RailtownAi.Domain.Services;
-using Mfm.RailtownAi.Shared;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -20,17 +19,17 @@ namespace Mfm.RailtownAi.App.App_Code
             services.AddDbContext<TestDbContext>(options =>
             options.UseSqlServer(_connectionString));
 
-            ConfigureSettings(services, configuration);
+            //ConfigureSettings(services, configuration);
             ConfigureDataServices(services);
             ConfigureDomainServices(services);
         }
 
-        private static void ConfigureSettings(IServiceCollection services, IConfiguration configuration)
+        /*private static void ConfigureSettings(IServiceCollection services, IConfiguration configuration)
         {
             var config = new AppSettings();
             configuration.Bind("AppSettings", config);
             services.AddSingleton(config);
-        }
+        }*/
 
         private static void ConfigureDataServices(IServiceCollection services)
         {
