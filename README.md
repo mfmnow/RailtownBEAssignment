@@ -3,6 +3,10 @@
 2. Set Start-up projects to Mfm.RailtownAi.App and Mfm.RailtownAi.TestApp
 3. Press Start button.
 
+# Integration with Azure Build Pipeline:
+- Per commit, a build starts on AzureDevOps
+- 
+
 ------
 
 # Railtown AI  Back End Technical Assessment
