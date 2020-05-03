@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mfm.RailtownAi.Data.Entities\Mfm.RailtownAi.Data.Entities.csproj" />
+    <ProjectReference Include="..\Mfm.RailtownAi.Domain.Models\Mfm.RailtownAi.Domain.Models.csproj" />
+  </ItemGroup>
+
+</Project>
