@@ -9,7 +9,7 @@ namespace Mfm.RailtownAi.Data.Services
 {
     public class UserEntityDataAccess : IUserEntityDataAccess
     {
-        public Task<List<UserEntity>> GetUserEntitiies()
+        public virtual Task<List<UserEntity>> GetUserEntitiies()
         {
             var json = File.ReadAllText("App_Data/DataSource.json");
             return Task.FromResult(JsonConvert.DeserializeObject<List<UserEntity>>(json));
