@@ -17,6 +17,7 @@
     <ProjectReference Include="..\Mfm.RailtownAi.Data.Services\Mfm.RailtownAi.Data.Services.csproj" />
     <ProjectReference Include="..\Mfm.RailtownAi.Domain.Contracts\Mfm.RailtownAi.Domain.Contracts.csproj" />
     <ProjectReference Include="..\Mfm.RailtownAi.Domain.Services\Mfm.RailtownAi.Domain.Services.csproj" />
+    <ProjectReference Include="..\Mfm.RailtownAi.Shared\Mfm.RailtownAi.Shared.csproj" />
   </ItemGroup>
 
 

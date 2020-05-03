@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Mfm.RailtownAi.Data.Contracts\Mfm.RailtownAi.Data.Contracts.csproj" />
     <ProjectReference Include="..\Mfm.RailtownAi.Data.Entities\Mfm.RailtownAi.Data.Entities.csproj" />
+    <ProjectReference Include="..\Mfm.RailtownAi.Shared\Mfm.RailtownAi.Shared.csproj" />
   </ItemGroup>
 
 </Project>
